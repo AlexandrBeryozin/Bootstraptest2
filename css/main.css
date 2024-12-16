@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Archangelsk Regular";
+    src: url("/fonts/Archangelsk-Regular.ttf") format("truetype");
+}
+:root {
+    --color1: #F8F200;
+    --color2: #52BEDC;
+}
+header {
+    justify-content: center;
+}
+.landing-block {
+    background-image: url(../img/bgimg.jpg);
+    background-size: cover;
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    max-height: 1000px;
+    height: 1000px;
+ }
+.main-logo {
+    max-height: 74px;
+    max-width: 296px;
+}
+.social-logo {
+    display: block;
+    max-width: 30px;
+    max-height: 30px;
+}
+.social-wrapper {
+    display: flex;
+    gap: 40px;
+
+}
+@media (max-width: 991px) {
+    .social-wrapper {
+        gap: 28px;
+        justify-content: center;
+    }
+    .social-logo {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .main-logo {
+        max-height: 50px;
+        max-width: 200px;
+    }
+    .main_img-wrapper {
+        text-align: center;
+    }
+    .yellow_block-wrapper {
+        margin-top: 451px;
+    }
+    .h1-title {
+        font-size: 30px;
+    }
+}
+.yellow_block-wrapper {
+    max-width: 624px;
+    max-height: 369px;
+    height: 100%;
+    background-color: var(--color1);
+    position: relative;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%, 0% 10%);
+    margin-top: 537px;
+}
+
+.h1-title {
+    font-family: "Archangelsk Regular";
+    font-size: 62px;
+    font-weight: 400;
+}
+
