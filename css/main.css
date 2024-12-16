@@ -16,10 +16,9 @@ header {
     background-repeat: no-repeat;
     max-height: 1000px;
     height: 1000px;
-
     display: flex;
     flex-direction: column;
- }
+}
 .main-logo {
     max-height: 74px;
     max-width: 296px;
@@ -40,11 +39,9 @@ header {
     max-width: 624px;
     max-height: 369px;
     padding: 70px;
-    /*height: 100%;*/
     background-color: var(--color1);
     position: relative;
-    clip-path: polygon(5% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%, 0% 10%);
-    /*margin-top: 537px;*/
+    clip-path: polygon(10% 0%, 100% 0%, 100% 85%, 90% 100%, 0% 100%, 0% 15%);
 }
 
 .h1-title {
@@ -52,8 +49,29 @@ header {
     font-size: 62px;
     font-weight: 400;
 }
+.button-main {
+    padding: 19px 50px 19px 50px;
+    border-radius: 0;
+    font-family: "Roboto Light", sans-serif;
+    color: var(--color1);
+    font-size: 24px;
+    font-weight: 700;
 
+}
 
+@media (max-width: 572px) {
+    .yellow_block {
+        padding: 38px;
+    }
+    .button-main {
+        font-size: 20px;
+        padding: 10px 50px 10px 50px;
+        white-space: nowrap;
+    }
+    .yellow_block {
+        margin-bottom: -35px;
+    }
+}
 @media (max-width: 991px) {
     .social-wrapper {
         gap: 28px;
@@ -67,11 +85,8 @@ header {
         max-height: 50px;
         max-width: 200px;
     }
-    .main_img {
+    .main_img-wrapper {
         text-align: center;
-    }
-    .yellow_block-wrapper {
-        /*margin-top: 451px;*/
     }
     .h1-title {
         font-size: 30px;
