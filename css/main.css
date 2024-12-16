@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Archangelsk Regular";
-    src: url("/fonts/Archangelsk-Regular.ttf") format("truetype");
+    src: url("../fonts/Archangelsk-Regular.ttf") format("truetype");
 }
 :root {
     --color1: #F8F200;
