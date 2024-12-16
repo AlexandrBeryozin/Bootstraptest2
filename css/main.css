@@ -16,6 +16,9 @@ header {
     background-repeat: no-repeat;
     max-height: 1000px;
     height: 1000px;
+
+    display: flex;
+    flex-direction: column;
  }
 .main-logo {
     max-height: 74px;
@@ -29,8 +32,28 @@ header {
 .social-wrapper {
     display: flex;
     gap: 40px;
-
 }
+.yellow_block-wrapper {
+    margin-top: auto;
+}
+.yellow_block {
+    max-width: 624px;
+    max-height: 369px;
+    padding: 70px;
+    /*height: 100%;*/
+    background-color: var(--color1);
+    position: relative;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%, 0% 10%);
+    /*margin-top: 537px;*/
+}
+
+.h1-title {
+    font-family: "Archangelsk Regular";
+    font-size: 62px;
+    font-weight: 400;
+}
+
+
 @media (max-width: 991px) {
     .social-wrapper {
         gap: 28px;
@@ -44,29 +67,13 @@ header {
         max-height: 50px;
         max-width: 200px;
     }
-    .main_img-wrapper {
+    .main_img {
         text-align: center;
     }
     .yellow_block-wrapper {
-        margin-top: 451px;
+        /*margin-top: 451px;*/
     }
     .h1-title {
         font-size: 30px;
     }
 }
-.yellow_block-wrapper {
-    max-width: 624px;
-    max-height: 369px;
-    height: 100%;
-    background-color: var(--color1);
-    position: relative;
-    clip-path: polygon(5% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%, 0% 10%);
-    margin-top: 537px;
-}
-
-.h1-title {
-    font-family: "Archangelsk Regular";
-    font-size: 62px;
-    font-weight: 400;
-}
-
